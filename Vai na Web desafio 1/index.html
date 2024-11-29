@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filme - Garfield</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+        }
+        header img {
+            height: 50px;
+        }
+        nav {
+            margin-left: auto;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: inherit;
+        }
+        main {
+            padding: 20px;
+        }
+        main h1 {
+            text-align: center;
+        }
+        .poster {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .poster img {
+            max-width: 100%;
+            height: auto;
+        }
+        article {
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 200px;
+            height: auto;
+            border: 2px solid #ddd;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f4f4f4;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <img src="LOGO.png" alt="Logo do Filme">
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=55D_3uaKXYE" target="_blank">Sinopse</a></li>
+                <li><a href="https://www.adorocinema.com/filmes/filme-247696/" target="_blank">Artigo</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <h1>Garfield - O Filme</h1>
+
+        <!-- Sinopse -->
+        <section id="sinopse">
+            <p>
+                Garfield, o gato mais preguiçoso e sarcástico do mundo, embarca em uma série de aventuras engraçadas e emocionantes. Sempre em busca de lasanha e conforto, Garfield aprende lições importantes sobre amizade e família.
+            </p>
+        </section>
+
+        <!-- Pôster -->
+        <div class="poster">
+            <img src="ENCONTRO.png" alt="Garfield comendo lasanha">
+            <figcaption>Garfield e Arlene em uma cena icônica do filme.</figcaption>
+        </div>
+
+        <!-- Artigo -->
+        <article id="artigo">
+            <h2>Detalhes sobre o filme</h2>
+            <img src="LASANHA.png" alt="Garfield e sua lasanha">
+            <p>O filme Garfield celebra as características marcantes do personagem, como seu amor por lasanha e seu desprezo por segundas-feiras. Com uma mistura de humor e momentos emocionantes, é um filme para toda a família.</p>
+        </article>
+
+        <!-- Galeria -->
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="ENCONTRO.png" alt="Garfield no jantar">
+                <img src="LASANHA.png" alt="Garfield olhando lasanha">
+                <img src="ODIE.png" alt="Garfield e Odie no sofá">
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Nome do Estúdio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
